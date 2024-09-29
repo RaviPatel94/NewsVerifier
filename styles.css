@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+/* nav */
+
+.navigation{
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    color: #07742D;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: "Grenze Gotisch";
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.brandtext{
+    height: fit-content;
+}
+
+
+.navoptions{
+    padding-right: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.option{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #07742D;
+}
+
+/* main */
+
+main{
+    font-family: Verdana;
+}
+
+.hero{
+    height:100vh;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herotext{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #07742D;
+}
+
+.hero input{
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #07742D;
+    width: 60vw;
+    min-width: 407px;
+    outline: none;
+    font-size: 16px;
+}
+
+.hero button{
+    padding: 7px 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0E953D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media (max-width:480px) {
+    .navoptions{
+        gap: 8px;
+        font-size: 14px;
+    }
+    .brand{
+        font-size: 18px;
+    }
+    .brand img{
+        height: 20px;
+        width: 20px;
+    }
+    .herotext{
+        font-size: 25px;
+        margin: 0 15px;
+    }
+    .hero input{
+        width: 80vw;
+        min-width: 20px;
+    }
+
+}
+
+@media (min-height:700px){
+    .hero{
+        gap: 25px;
+    }
+    .herotext{
+        margin-bottom: 10px;
+    }
+}
