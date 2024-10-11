@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "newsverifier",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "images/news detect logo.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
